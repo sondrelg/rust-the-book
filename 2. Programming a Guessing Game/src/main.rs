@@ -38,7 +38,7 @@ fn main() {
         if guessed_int == answer {
             if points > 251 {
                 println!("You win the game!");
-                let done = true;
+                done = true;
             }
             points += 5;
             println!("\nCorrect! You now have {} points!", points)
